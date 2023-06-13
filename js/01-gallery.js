@@ -47,5 +47,3 @@ function onEscKeyPress(event) {
     if (event.code !== "Escape") return;
     instance.close();
 }
-
-console.log(createImegCardMarcup(galleryItems));
